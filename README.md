@@ -1,11 +1,11 @@
-1. Prerequisites
+# Prerequisites
 Ollama: Download and install from ollama.com.
 
 Python 3.11+: Ensure Python is added to your System PATH.
-2. Installation
+# Installation
 Clone this repository or navigate to your project folder and install the dependencies:
 pip install ollama streamlit
-3 Create Custom Models
+# Create Custom Models
 Before running the app, you need to build the custom personas using their respective Modelfiles:
 # Create Mario
 ollama create mario -f ModelfileMario
@@ -13,11 +13,11 @@ ollama create mario -f ModelfileMario
 # Create Grandma
 ollama create grandma -f ModelfileGrandma
 
-Running the App
+#Running the App
 Launch the Streamlit interface:
 python -m streamlit run app.py
 
-Project Structure
+#Project Structure
 app.py: The main Streamlit application logic and UI.
 
 Mariofile: Configuration for the Mario persona.
